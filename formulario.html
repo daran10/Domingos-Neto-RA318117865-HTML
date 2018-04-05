@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head> 
+ <meta charset="utf-8">
+ <link rel="stylesheet" type="text/css" href="css/formulario.css">
+
+	<title>Fórmulário</title>
+	<h1>Formulário de Inscrição</h1>
+
+</head>
+
+<body>
+<section>
+	<article>
+		<form>
+			<fieldset id="identificação"><legend>Identificação do Usúario</legend>
+
+			<p class="nome">Nome: <input type="text" name="tnome" id="cnome" placeholder="Nome Completo"></p>
+			<p>Sobrenome:<input type="text" name="tsobrenome" id="csobrenome" placeholder="Sobrenome"></p>
+			<p>Data de nascimento: <input type="date" name="tdate"></p>
+			<p>CPF:<input type="text" name="tcpf" id="ccpf" maxlength="16"></p>
+			<fieldset id="sexo"><legend>sexo</legend>
+			<input type="radio" name="tsexo" id="cmasc">Masculino <br>
+			<input type="radio" name="tsexo" id="cfem">Feminino
+		</fieldset>
+			<p>Estado Civil: <input type="text" name="Civil" id="tcivil"></p>
+		</fieldset>
+
+			<fildset id="Contato"><legend>Contato</legend>
+
+			<p>Telefone:<input type="phone" name="tphone"></p>
+			<p>Celular: <input type="celular" name="tcell"></p>
+			<p>Email:<input type="email" name="tmail" id="tmail"></p>
+			<p>Endereço: <input type="txt" name="trua" id="crua" placeholder="Rua, Av.,Travessa"></p>
+			<p>Número: <input type="number" name="tnumber" id="cnumber" min="0" max="99999"></p>
+			<p> <label for="ccid">Cidade:</label> <select name="tcid" id="ccid" > 
+		    <option>Belo Horizonte</option>
+			<option>Sao Paulo</option>
+			<option>Rio de Janeiro</option>
+		</select>
+			<p><label for="cestado">Estado:</label> <select name="test" id="cestado"</select>
+				<option>Minas Gerais</option>
+				<option>São Paulo</option>
+				<option>Rio de Janeiro</option>
+			</select>
+			</p>
+		</fildset>
+
+		<p><input type="Submit" name="Enviar"></p>
+
+		</form>
+
+	</article>
+
+</section>
+</body>
+
+</html>
